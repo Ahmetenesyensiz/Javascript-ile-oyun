@@ -1,2 +1,4 @@
 # Javascript-ile-oyun
-bazen zor bazen kolay oyunu
+html, css ve javascript kullanılarak yapılan bir oyun
+oyun adı bazen kolay bazen zor
+oyun anlatım linki: 
