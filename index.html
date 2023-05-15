@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazen kolay Bazen zor</title>
+    <style>
+        #myCanvas 
+        {
+            margin: auto;
+            display: block;
+        }
+        #h1
+        {
+            text-align: center;
+        }
+        .bilgilendirme {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #fff;
+            border: 2px solid #000;
+            z-index: 999;
+          }
+          
+          .bilgilendirme h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+          }
+          
+          .bilgilendirme ul {
+            list-style: disc;
+            margin-left: 30px;
+          }
+          
+          .bilgilendirme button {
+            display: block;
+            margin: 20px auto 0;
+          }
+          
+    </style>
+</head>
+<body>
+    <h1 id="h1">Bazen kolay Bazen zor</h1>
+    <div id="bilgilendirme" class="bilgilendirme">
+        <h2>OYUN NASIL OYNANIR</h2>
+        <ul>
+          <li>Mouse ile topu tutup çekerek çektiğiniz yönde top ilerler.</li>
+          <li>Mouse ile topu ne kadar çekerseniz o hızda ilerleyecektir.</li>
+          <li>Oyundaki amaç yeşil topa değdikten sonra mavi kareye topu değdirmektir.</li>
+          <li>Eğer önce kareye değerseniz oyunu kaybedersiniz.</li>
+        </ul>
+        <button id="tamam">Tamam</button>
+      </div>
+    <canvas id="myCanvas" width="400" height="500" style="border: 1px solid #000000;" ></canvas>
+</body>
+<script src="game.js"></script>
+</html>
